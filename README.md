@@ -1,6 +1,14 @@
 # Fibonacci.java
 Classe simples para calcular sequência de Fibonacci com critérios de paradas.
 
+Uso:
+```
+int howManyNumbers = 30;
+long numberToStop = 1600;
+
+Fibonacci.print(howManyNumbers, numberToStop);
+```
+
 ```
 package org.example;
 
