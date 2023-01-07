@@ -30,4 +30,11 @@ public class Fibonacci {
         }
     }
 
+    public static void print(int howManyNumbers) {
+        for (int i = 0; i < howManyNumbers; i++) {
+            long currentValue = Fibonacci.calculate(i);
+            System.out.print(currentValue + "  ");
+        }
+    }
+
 }
